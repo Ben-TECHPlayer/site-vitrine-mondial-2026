@@ -1,0 +1,7 @@
+section form, section h2{
+    text-align: center;
+}
+
+section form input, section form button[type=submit]{
+    display: block;
+}
