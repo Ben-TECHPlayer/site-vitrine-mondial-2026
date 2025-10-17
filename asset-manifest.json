@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/site-vitrine-mondial-2026/static/css/main.76acd2fb.css",
-    "main.js": "/site-vitrine-mondial-2026/static/js/main.3b72ff27.js",
+    "main.js": "/site-vitrine-mondial-2026/static/js/main.4103f4e3.js",
     "index.html": "/site-vitrine-mondial-2026/index.html",
     "main.76acd2fb.css.map": "/site-vitrine-mondial-2026/static/css/main.76acd2fb.css.map",
-    "main.3b72ff27.js.map": "/site-vitrine-mondial-2026/static/js/main.3b72ff27.js.map"
+    "main.4103f4e3.js.map": "/site-vitrine-mondial-2026/static/js/main.4103f4e3.js.map"
   },
   "entrypoints": [
     "static/css/main.76acd2fb.css",
-    "static/js/main.3b72ff27.js"
+    "static/js/main.4103f4e3.js"
   ]
 }
