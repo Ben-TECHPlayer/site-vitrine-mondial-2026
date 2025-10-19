@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/site-vitrine-mondial-2026/static/css/main.d1c4acdd.css",
-    "main.js": "/site-vitrine-mondial-2026/static/js/main.2d9bfcf6.js",
+    "main.css": "/site-vitrine-mondial-2026/static/css/main.233a0e9a.css",
+    "main.js": "/site-vitrine-mondial-2026/static/js/main.bbbd6c5c.js",
+    "static/media/stades-coupe-du-monde-fifa-2026.webp": "/site-vitrine-mondial-2026/static/media/stades-coupe-du-monde-fifa-2026.b2e8518f4f11cab4ddce.webp",
     "index.html": "/site-vitrine-mondial-2026/index.html",
-    "main.d1c4acdd.css.map": "/site-vitrine-mondial-2026/static/css/main.d1c4acdd.css.map",
-    "main.2d9bfcf6.js.map": "/site-vitrine-mondial-2026/static/js/main.2d9bfcf6.js.map"
+    "main.233a0e9a.css.map": "/site-vitrine-mondial-2026/static/css/main.233a0e9a.css.map",
+    "main.bbbd6c5c.js.map": "/site-vitrine-mondial-2026/static/js/main.bbbd6c5c.js.map"
   },
   "entrypoints": [
-    "static/css/main.d1c4acdd.css",
-    "static/js/main.2d9bfcf6.js"
+    "static/css/main.233a0e9a.css",
+    "static/js/main.bbbd6c5c.js"
   ]
 }
