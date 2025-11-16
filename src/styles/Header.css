@@ -1,0 +1,81 @@
+html {
+    scroll-behavior: smooth;
+    font-family: "Segoe UI", Helvetica, Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+@media (min-width: 1150px) {
+    header, main{
+        margin: 0 4rem 0 4rem;
+        padding: 0 4rem 0 4rem;
+    }
+}
+
+body{
+    background-color: snow;
+}
+
+header img{
+    width: 10%;
+    height: auto;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  flex-wrap: wrap;
+}
+
+.menu {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+.menu button {
+  text-decoration: none;
+  border: none;
+  background: none;
+  color: black;
+  font-weight: 500;
+  font-size: 1.2rem;
+  font-family: "Segoe UI"
+}
+
+.menu button.defaultPage{
+    color: lime;
+    transition: ease-in 0.3s;
+}
+
+/* Bouton hamburger */
+.menu-toggle {
+  display: none;
+  font-size: 2rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .menu {
+    max-height: 0;              /* caché */
+    overflow: hidden;           /* masque le contenu */
+    flex-direction: column;
+    align-items: flex-end;
+    width: 100%;
+    margin-top: 1rem;
+    opacity: 0;                 /* invisible */
+    transition: max-height 0.5s ease-in-out, opacity 0.5s ease-in-out;
+  }
+
+  .menu.show {
+    max-height: 500px;          /* hauteur suffisante pour contenir les liens */
+    opacity: 1;                 /* visible */
+  }
+
+  .menu-toggle {
+    display: block;
+  }
+}
