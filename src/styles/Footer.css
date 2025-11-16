@@ -3,7 +3,6 @@ footer {
     min-height: 100%;
     margin-top: 2rem;
     display: flex;
-<<<<<<< HEAD
     flex-direction: row; 
     align-items: center; 
     justify-content: space-between;
@@ -28,19 +27,16 @@ footer {
 }
 
 footer .droits-auteur{
-=======
     flex-direction: column;
     align-items: center;
     padding: 10px;
 }
 
 footer p{
->>>>>>> 72216bc7c31fbfb498b4534d5bcf1d64f5b58a84
     text-align: center;
 }
 
 .contact-icons {
-<<<<<<< HEAD
     float: right;
     display: flex;
     justify-content: center; /* Centrer les icônes horizontalement */
@@ -59,27 +55,3 @@ footer p{
     width: 30px; /* Taille des images */
     height: auto;
 }
-=======
-    display: flex;
-    justify-content: center; /* Centrer les icônes horizontalement */
-    gap: 30px; /* Espacement entre les icônes */
-    flex-wrap: wrap;
-}
-
-.contact-icons img{
-    width: 50px; /* Taille des images */
-    height: auto;
-    object-fit: contain;
-}
-
-.partners-icons img {
-    width: 100px; /* Taille des images */
-    height: auto;
-}
-/* 
-@media (max-width: 900px) {
-    .partners-icons {
-        display: inline-block;
-    }
-} */
->>>>>>> 72216bc7c31fbfb498b4534d5bcf1d64f5b58a84
