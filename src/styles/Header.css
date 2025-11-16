@@ -1,4 +1,5 @@
 html {
+<<<<<<< HEAD
     scroll-behavior: smooth;
     font-family: "Segoe UI", Helvetica, Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
 }
@@ -79,3 +80,92 @@ header img{
     display: block;
   }
 }
+=======
+    margin: 0;
+    padding: 0;
+    font-family: "Segoe UI", Helvetica, Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+/* body{
+    background-image: url(../../public/assets/gtaVI.png); 
+    background-size: auto;
+    background-repeat: no-repeat; 
+} */
+
+img.logo{
+    display: block;
+    margin-top: 20px;
+    width: 5%;
+    height: auto;
+}
+
+.menu button.defaultPage{
+  color: #0add26;
+}
+
+
+.header-container{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    justify-content: space-around;
+}
+
+@media (max-width: 1000px) {
+    .header-container{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        justify-content: space-around;
+    }
+}
+
+.menu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+}
+
+@media (max-width: 1150px) {
+    .menu{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: repeat(2,auto);
+    }
+}
+
+@media (max-width: 400px) {
+    .menu{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.menu button{
+    color: black;
+    font-weight: 500;
+    font-size: 18px;
+    padding: 15px;
+    border-radius: 12px;
+    border: none;
+    background: transparent;
+    font-family: "Segoe UI", Helvetica, Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.menu button a {
+    
+    text-decoration: none;  /* Retire le soulignement des liens */
+    color: inherit;         /* Optionnel : pour hériter de la couleur du texte parent */
+}
+
+.menu button a:hover {
+    color: #0add26;
+    transition: ease-in 0.3s;
+}
+
+.menu button.green {
+  color: #0add26;
+}
+>>>>>>> 72216bc7c31fbfb498b4534d5bcf1d64f5b58a84
