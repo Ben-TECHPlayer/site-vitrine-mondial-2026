@@ -44,7 +44,7 @@ header img{
 }
 
 .menu button.defaultPage{
-    color: lime;
+    color: #007BFF;
     transition: ease-in 0.3s;
 }
 

@@ -1,11 +1,52 @@
+section h1, section h2, section p {
+  color: #111;
+  text-shadow: 0 0 5px #06B6D4, 0 0 10px #06B6D4, 0 0 20px #06B6D4;
+  animation: glow 0.8s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+  from {
+    text-shadow: 0 0 5px #06B6D4, 0 0 10px #06B6D4, 0 0 20px #06B6D4;
+  }
+  to {
+    text-shadow: 0 0 10px #2563EB, 0 0 20px #2563EB
+  }
+}
+
+section p:hover {
+  color: #111;
+  text-shadow: 0 0 10px #10B981, 0 0 20px #10B981;
+  transition: all 0.3s ease;
+}
+
+section img {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 8px; /* optionnel pour des coins arrondis */
+}
+
+section img:hover {
+  transform: scale(1.1); /* agrandit l’image de 10% */
+}
+
 section h1, section .info, section p{
     text-align: center;
-    color: lime;
+    color: #2563EB;
 }
 
 section h1{
     font-size: 2.5rem;
     font-weight: 700;
+}
+
+section img{
+    width: 100px;
+    height: auto;
+}
+
+section .image-item{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
 }
 
 section .info{
